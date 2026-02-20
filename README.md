@@ -1,18 +1,53 @@
-# React + Vite
+# 🌍 WorldBrowse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Explore Beyond Borders.**  
 
-Currently, two official plugins are available:
+WorldBrowse is a modern web application that allows users to search and discover detailed information about countries worldwide. From population and region to flags and cultural data, everything is accessible through a clean and intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 🔎 **Search Countries**: Find any country by name.  
+- 🌎 **Detailed Country Info**: Access population, region, capital, languages, and more.  
+- 🏳️ **High-Quality Flags**: View accurate and beautiful country flags.  
+- ⚡ **Fast API-Powered Data**: Fetch country data quickly via REST API.  
+- 📱 **Responsive UI**: Works seamlessly on desktop, tablet, and mobile devices.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) – Frontend library for building UI  
+- [React Router](https://reactrouter.com/) – Dynamic routing  
+- **Custom Hooks** – Reusable logic for API fetching and state management  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for modern styling  
+- [REST Countries API](https://restcountries.com/) – Source for country data
+
+---
+
+## 🚀 Purpose
+
+This project was built to practice and demonstrate skills in:  
+
+- API integration and asynchronous data fetching  
+- Dynamic routing with React Router  
+- Component-based architecture and state management  
+- Creating clean, responsive, and user-friendly UI/UX
+
+---
+
+## 📌 Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/worldbrowse.git
+   cd worldbrowse
+
+2. **Install Dependencies**  
+    npm install
+
+3. **Run the project**
+    npm run dev
+
+4. Open [http://localhost:3000](http://localhost:5173/World-Browse/) to view it in your browser.
