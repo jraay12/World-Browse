@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import Logo from "../assets/WorldBrowse.png";
-import flag1 from "../assets/flag1.png";
+import flag1 from "../assets/Flag1.png";
 import flag2 from "../assets/flag2.png";
 import flag3 from "../assets/flag3.png";
 import flag4 from "../assets/flag4.png";
