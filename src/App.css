@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@theme {
+  /* animations */
+  --animate-circling: circling 3s ease-in infinite;
+
+  /* colors */
+  --color-primary: #f3e8df;
+  --color-secondary: #57595b;
+  --color-tertiary: #452829;
+
+  /* fonts */
+
+  --font-primary: "Playfair Display", serif;
+
+  @keyframes circling {
+    0% {
+      transform: translate(0, -6px);
+    }
+    25% {
+      transform: translate(6px, 0);
+    }
+    50% {
+      transform: translate(0, 6px);
+    }
+    75% {
+      transform: translate(-6px, 0);
+    }
+    100% {
+      transform: translate(0, -6px);
+    }
+  }
+}
