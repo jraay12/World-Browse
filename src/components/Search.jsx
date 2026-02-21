@@ -24,11 +24,12 @@ const Search = ({ value, onChange, onSubmit }) => {
           className="outline-none min-w-11/12 absolute top-2 left-8"
         />
         <div className="border border-gray-100 w-full"></div>
-        <div
-          className="flex items-center justify-center w-16 h-8 rounded-xl bg-tertiary absolute bottom-1 right-4 cursor-pointer"
+        <button
+          className="flex items-center justify-center w-16 h-8 rounded-xl bg-white shadow-sm absolute bottom-1 right-4 cursor-pointer"
+          type="submit"
         >
-          <img src={arrow} alt="" className="w-7 h-7 invert-100" />
-        </div>
+          Search
+        </button>
       </div>
     </form>
   );
